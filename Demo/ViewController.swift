@@ -51,6 +51,7 @@ class ViewController: UIViewController {
             
             let sp = UIStoryboard(name: "Main", bundle: nil)
             let LionVC = sp.instantiateViewController(withIdentifier: "Mandy") as! TableViewController
+            LionVC.x = lblUser.text
             self.navigationController?.pushViewController(LionVC, animated: true)
         }
         

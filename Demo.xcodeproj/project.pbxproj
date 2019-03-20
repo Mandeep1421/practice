@@ -14,12 +14,13 @@
 		9B4E784E22419DEF00523E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E784C22419DEF00523E71 /* LaunchScreen.storyboard */; };
 		9B4E785922419DEF00523E71 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E785822419DEF00523E71 /* DemoTests.swift */; };
 		9B4E786422419DEF00523E71 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E786322419DEF00523E71 /* DemoUITests.swift */; };
-		9B4E787222419EAC00523E71 /* login-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E787122419EAC00523E71 /* login-background.jpg */; };
 		9B4E787422419EE100523E71 /* 11008472-nature-login-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E787322419EE100523E71 /* 11008472-nature-login-background.jpg */; };
-		9B4E78762241A1D100523E71 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E78752241A1D100523E71 /* TableViewController.swift */; };
 		9B4E78782241ABD500523E71 /* backgroundDefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E78772241ABD500523E71 /* backgroundDefault.jpg */; };
 		9B4E787A2241ACD900523E71 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E78792241ACD900523E71 /* SignUpViewController.swift */; };
 		9B4E787C2241ADF700523E71 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E787B2241ADF700523E71 /* SignUp.swift */; };
+		9B4E787E2241BD6400523E71 /* CustomerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E787D2241BD6400523E71 /* CustomerDetailsViewController.swift */; };
+		9B4E78802241BEB800523E71 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E787F2241BEB800523E71 /* TableViewCell.swift */; };
+		9B4E78842241C22E00523E71 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E78832241C22E00523E71 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +54,13 @@
 		9B4E785F22419DEF00523E71 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4E786322419DEF00523E71 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		9B4E786522419DEF00523E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B4E787122419EAC00523E71 /* login-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login-background.jpg"; sourceTree = "<group>"; };
 		9B4E787322419EE100523E71 /* 11008472-nature-login-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11008472-nature-login-background.jpg"; sourceTree = "<group>"; };
-		9B4E78752241A1D100523E71 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9B4E78772241ABD500523E71 /* backgroundDefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundDefault.jpg; sourceTree = "<group>"; };
 		9B4E78792241ACD900523E71 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9B4E787B2241ADF700523E71 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		9B4E787D2241BD6400523E71 /* CustomerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailsViewController.swift; sourceTree = "<group>"; };
+		9B4E787F2241BEB800523E71 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9B4E78832241C22E00523E71 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,13 +116,14 @@
 				9B4E784722419DEF00523E71 /* Main.storyboard */,
 				9B4E784A22419DEF00523E71 /* Assets.xcassets */,
 				9B4E787322419EE100523E71 /* 11008472-nature-login-background.jpg */,
-				9B4E787122419EAC00523E71 /* login-background.jpg */,
 				9B4E78772241ABD500523E71 /* backgroundDefault.jpg */,
 				9B4E784C22419DEF00523E71 /* LaunchScreen.storyboard */,
 				9B4E784F22419DEF00523E71 /* Info.plist */,
-				9B4E78752241A1D100523E71 /* TableViewController.swift */,
 				9B4E78792241ACD900523E71 /* SignUpViewController.swift */,
 				9B4E787B2241ADF700523E71 /* SignUp.swift */,
+				9B4E787D2241BD6400523E71 /* CustomerDetailsViewController.swift */,
+				9B4E787F2241BEB800523E71 /* TableViewCell.swift */,
+				9B4E78832241C22E00523E71 /* TableViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -249,7 +252,6 @@
 			files = (
 				9B4E784E22419DEF00523E71 /* LaunchScreen.storyboard in Resources */,
 				9B4E78782241ABD500523E71 /* backgroundDefault.jpg in Resources */,
-				9B4E787222419EAC00523E71 /* login-background.jpg in Resources */,
 				9B4E787422419EE100523E71 /* 11008472-nature-login-background.jpg in Resources */,
 				9B4E784B22419DEF00523E71 /* Assets.xcassets in Resources */,
 				9B4E784922419DEF00523E71 /* Main.storyboard in Resources */,
@@ -278,9 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B4E784622419DEF00523E71 /* ViewController.swift in Sources */,
-				9B4E78762241A1D100523E71 /* TableViewController.swift in Sources */,
 				9B4E787A2241ACD900523E71 /* SignUpViewController.swift in Sources */,
+				9B4E787E2241BD6400523E71 /* CustomerDetailsViewController.swift in Sources */,
 				9B4E784422419DEF00523E71 /* AppDelegate.swift in Sources */,
+				9B4E78842241C22E00523E71 /* TableViewController.swift in Sources */,
+				9B4E78802241BEB800523E71 /* TableViewCell.swift in Sources */,
 				9B4E787C2241ADF700523E71 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
