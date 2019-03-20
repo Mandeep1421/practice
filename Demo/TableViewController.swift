@@ -36,7 +36,7 @@ class TableViewController: UITableViewController {
             {
                 let sp = UIStoryboard(name: "Main", bundle: nil)
                 let LionVC = sp.instantiateViewController(withIdentifier: "Mandy1") as! CustomerDetailsViewController
-         
+                LionVC.x = x
                 self.navigationController?.pushViewController(LionVC, animated: true)
             }
         }
